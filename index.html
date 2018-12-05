@@ -1,0 +1,525 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>DC2S2 Workshop</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+     -->
+    <style type="text/css">
+      html, body {height: 100%;}
+      body{
+        margin:0;
+        padding:1rem;
+        background-image:url(./img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center -655px;
+      }
+      #logo{font-size: 100px;text-align:center;}
+      section{
+        margin:5rem 0 1rem 0;
+        background-color:#FFFFFF;
+      }
+      h1,h2,h3,h4{text-align:center;}
+      .organizer{
+        text-align:center;
+        margin-bottom: 2rem;
+      }
+      .organizer .img{
+        margin:0 auto 1rem auto;
+        width:150px;
+        height:150px;
+        border-radius:75px;
+        display:block;
+        text-align:center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size:cover;
+      }
+      .position{
+        font-style: italic;
+      }
+      .institution{
+        min-height:45px;
+      }
+      #headerunderlay{
+        z-index: -1;
+        position:absolute;
+        top:0;
+        left:0;
+        height:150px;
+        width:100%;
+      }
+      #header{
+        background-image:url(./img/photo-1500390365106-166bb67248d6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 25%;
+        z-index: 0;
+        position:absolute;
+        top:0;
+        left:0;
+        height:150px;
+        width:100%;
+        opacity:.3;
+      }
+      .introtext{
+        font-family:Courier New, Courier, sans-serif;
+        font-size:0.5em;
+        display:block;
+        padding:0;
+        margin:0;
+      }
+      .subtitle{
+        font-weight:600;
+      }
+      .keyword{
+        font-weight:600;
+      }
+      .centered{
+        text-align:center;
+      }
+      #dates i{
+        font-size:0.9rem;
+      }
+      .position{
+        font-style:italic;
+      }
+      .bigicons{
+        font-size:6rem;
+      }
+      .breakout{
+        text-align:center;
+        margin-top:1rem;
+      }
+      .breakout h4 {
+        margin-top:0rem;
+      }
+      section{padding-left:2rem;padding-right:2rem;}
+      div#nav{
+        z-index:999;
+        position:fixed;
+        right:2rem;
+        top:1rem;
+        background-color:#FFFFFF;
+        min-width:160px;
+        padding-right:10px;
+      }
+      .breakoutimg{
+        min-height: 120px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+<body>
+<div id="headerunderlay" class="cyan"></div>
+<div id="header"></div>
+
+<div class="container" style="margin-top:50px">
+
+<div class="col m9 l10">
+
+<div id="logo">
+  DC<sup>2</sup>S<sup>2</sup>
+</div>
+
+<h1>
+  <span class="introtext">Workshop on</span>
+  Designing Crowd-powered Creativity Support Systems
+</h1>
+<div class="centered">4/5 May 2019, &nbsp; <a href="https://chi2019.acm.org/" rel="mothership" target="_blank">CHI'19</a>, &nbsp; Glasgow, Scotland</div>
+
+
+<section id="dates" class="centered section scrollspy">
+  <div>Important Dates:</div>
+  <div>Submission Deadline: 12 February 2019 <i class="material-icons">event_note</i></div>
+  <div>Notification of Acceptance: 1 March 2019 <i class="material-icons">event_note</i></div>
+  <div>Workshop Date: 4 May 2019 or 5 May 2019 <i class="material-icons">event_note</i></div>
+</section>
+
+
+
+<section id="introduction" class="section scrollspy">
+<h2>Introduction</h2>
+<!--
+<span class="keyword">Crowdsourcing</span> has been applied to a broad range of creative processes, from supporting research
+to helping unfold global-scale wicked problems.
+-->
+<p>
+  <span class="keyword">Supporting creativity</span> has been considered as one of the grand challenges in Human Computer Interaction (HCI).
+  The goal of <span class="keyword">creativity support systems</span> is to make &quot;more people more creative more often&quot;.
+  By creativity, we refer to the process that leads to an artifact that is deemed both novel and useful in a given field and domain.
+  Crowdsourcing is the practice of outsourcing tasks on an online platform to a crowd of people via an open call for contributions.
+  Given the inherent emphasis of crowdsourcing in collecting insights rapidly, inexpensively and accurately, crowdsourcing has been suggested as a
+  key approach for creativity support.
+  Organizations have recognized the potential of crowds, with companies such as Innocentive, Quirky and OpenIDEO finding success in Open Innovation.
+</p>
+<p>
+  In this one-day <span class="keyword">workshop</span>
+  at the <a href="https://chi2019.acm.org/" target="_blank">ACM CHI Conference on Human Factors in Computing Systems (CHI'19)</a>,
+  we bring together scientists and practitioners interested in creativity. We invite
+  participants working on collaborative and crowd-powered systems that in one way or another enhance
+  creative processes or challenge the academic community’s thinking and perceptions about creativity
+  in general. Doing so, we set to inspire the design of next-generation crowd-powered systems that
+  support creativity.
+  The workshop allows for participants to bring forward their ideas, designs and practical experiences in
+  the field of supporting creativity through crowdsourcing.
+  <!--
+  While the workshop has a sharp focus,
+  creativity as a collaborative process fits well with submissions from several areas relevant to CHI,
+  such as Human Computer Interaction, social and crowd computing, empirical investigations, systems
+  and tools, collaborative applications, and boundary-crossing designs.
+  -->
+</p>
+</section>
+
+
+<section id="objectives" class="section scrollspy">
+<h2>Objectives of the workshop</h2>
+
+<p>
+This workshop aims to provide a forum for researchers and industry professionals to share, discuss
+and brainstorm their ideas about improving current and designing future crowd-powered systems
+that support creative work.
+</p>
+
+<p>
+Involving the crowd in a creative process leads to several fundamental challenges. Crowd-powered
+creativity support systems operate in a space in which there is no right answer to a task. Research has
+shown that in situations without a ground truth, ambiguous results are still valuable. Subjective
+tasks are, however, prone to cheating. How can the quality of crowdsourcing results be assessed in
+such a divergent thinking setting? What forms of collaboration are useful and helpful in crowd settings?
+What incentives other than extrinsic motivation could be given to crowdworkers to participate in
+creative tasks? How will automation (Machine Learning and Artificial Intelligence) and human agents
+collaborate in creative tasks?
+</p>
+
+<p>
+As creativity can be an attribute of individuals or teams,
+we will center the workshop around the following two themes as a broad estimate of the type of system
+designs that we hope to stimulate with the workshop:
+<span class="keyword">augmenting the individual</span>, and <span class="keyword">supporting group collaboration</span>.
+</p>
+
+<!--
+Shneiderman identified eight creative activities that could benefit from being supported by creativity
+support systems: searching, visualizing, consulting peers, thinking, exploring, composing, reviewing,
+and disseminating. The majority of creativity support systems, however, focus only on the ideation
+phase. As knowledge work is being transformed and the World Wide Web and ubiquitous devices
+have thoroughly permeated our work practices, the interest in supporting creative work though
+different digital approaches is growing.
+-->
+
+<div class="row">
+
+  <div class="breakout col s6">
+    <i class="bigicons material-icons">person</i>
+    <h4>Augmenting the Individual</h4>
+    <div class="breakoutimg" style="background-image:url(img/photo-1523430237819-5fdfeb4f5604.jpg);background-position:center 54%;"></div>
+    <p class="breakouttxt">
+      The goal of this theme is to augment the individual&apos;s creativity and cognition with the crowd.
+      The theme aims to develop improved software
+      and user interfaces that empower users to be
+      more productive, and more innovative.
+    </p>
+    <p>
+      Challenges under this theme include, for example:
+    </p>
+    <ul class="collection">
+    <li class="collection-item">
+      Interfaces and software for supporting peak-productive moments (&quot;bursts&quot;) of
+      an individual&apos;s creativity with the collective intelligence of the crowd
+    </li>
+    <li class="collection-item">
+      Preventing cognitive overload of the individual:
+          Evaluating the quality of contributions from the crowd and
+          helping explore the space of solutions contributed by the crowd
+    </li>
+    </ul>
+  </div>
+
+  <div class="breakout col s6">
+    <i class="bigicons material-icons">device_hub</i>
+    <h4>Supporting Group Ideation</h4>
+    <div class="breakoutimg" style="background-image:url(img/photo-1527153818091-1a9638521e2a.jpg);background-position:center 52%;"></div>
+    <p class="breakouttxt">This theme will explore supporting the creative work of small and large groups with the crowd.</p>
+    <p>Challenges under this theme include, but are not limited to:</p>
+    <ul class="collection">
+      <li class="collection-item">
+        Determining levels of collaboration to prevent early fixation of the group without limiting the quality through feedback
+      </li>
+      <li class="collection-item">
+        Dynamically guiding crowd efforts based on task needs, worker profiles, etc.
+      </li>
+      <li class="collection-item">
+        Automating repetitive tasks in group ideation
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+</section>
+
+
+<section id="structure" class="section scrollspy">
+<h2>Workshop Structure</h2>
+The preliminary schedule for the workshop is summarized in the table below. The main purpose of the session in the morning is
+to familiarize the participants with each other and their ideas for future crowd-powered creativity
+support systems. The emphasis in the very brief presentation session will be on group discussion, rather
+than on presentation of individual position papers. We will subsequently hold a &quot;bad idea&quot; exercise
+to further stimulate the participants&apos; creativity. In this exercise, groups of 2-4 people will discuss
+and later present <em>bad ideas</em>, i.e. ideas that are deemed to not be feasible or practical. This exercise
+has been proven to help with coming up with new ideas and solutions as many bad ideas are not
+actually that bad or can be interpreted in a positive way.
+The afternoon is occupied by collaborative work in smaller groups.
+The purpose of these break-out sessions is to sketch out ideas or even build
+first prototypes of crowd-powered creativity support systems.
+
+
+<table class="centered hover highlight responsive-table">
+  <thead>
+    <tr>
+        <th>Start</th>
+        <th>End</th>
+        <th>Program Schedule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09:00</td>
+      <td>09:30</td>
+      <td>Welcome and introductions</td>
+    </tr>
+    <tr>
+      <td>09:30</td>
+      <td>10:00</td>
+      <td>Participants present their vision statements and ideas</td>
+    </tr>
+    <tr>
+      <td>10:00</td>
+      <td>10:30</td>
+      <td>Bad idea exercise</td>
+    </tr>
+    <tr>
+      <td>10:30</td>
+      <td>11:00</td>
+      <td>Coffee break</td>
+    </tr>
+    <tr>
+      <td>11:00</td>
+      <td>11:30</td>
+      <td>Discussion of ideas and formation of groups</td>
+    </tr>
+    <tr>
+      <td>11:30</td>
+      <td>12:30</td>
+      <td>Lunch</td>
+    </tr>
+    <tr>
+      <td>12:30</td>
+      <td>16:00</td>
+      <td>Break-out session in groups</td>
+    </tr>
+    <tr>
+      <td>16:00</td>
+      <td>17:00</td>
+      <td>Final presentations and discussion</td>
+    </tr>
+  </tbody>
+</table>
+
+</section>
+
+
+<section id="cfp" class="section scrollspy">
+<h2>Call for Participation</h2>
+<p>
+This one-day brainstorming workshop brings together researchers and industry professionals for
+advancing the state of the art in crowdsourcing creativity. The workshop activities will support
+participants to work together to ideate and design new applications and interfaces for supporting
+creative work with the crowd.
+</p>
+
+<p>
+Our intention with this workshop is to bring researchers together to form future cross-boundary
+collaborations and to kick-start future joint research endeavors.
+Supporting creativity with technology is inherently exploratory and transdisciplinary.
+We therefore welcome a diverse set of members from the research community and industry, from fields, such as, but not limited to,
+from Communication and Social Science, legal studies, Sociology, Psychology, Economics, Computer Science, and Human-Computer Interaction, and others).
+The workshop is open to a broad audience to stimulate the workshop participants by exposure
+to new points of views from different disciplines.
+</p>
+
+<p>
+We invite designers, researchers and industry practitioners interested
+in participating to submit original contributions in the form of vision and position papers (max. 4
+pages) on potential applications and unsolved challenges. We specifically encourage the participants
+to share their ideas for projects to facilitate the hands-on brainstorming session in the workshop.
+The review of submissions will follow a juried process (see <a href="http://chi2018.acm.org/selection-processes/" target="_blank">chi2018.acm.org/selection-processes</a>).
+Submissions will be selected based on their relevance to the workshop
+themes, and the originality and novelty of the submitted ideas. Submissions should follow the ACM
+<a href="http://chi2019.acm.org/authors/chi-proceedings-format/" target="_blank">SIGCHI Extended Abstracts</a>
+format (available as
+<a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip" target="_blank">Latex template</a>
+and <a href="http://chi2019.acm.org/wp-content/uploads/2018/12/SigChi-a.docx" target="_blank">interim template for Microsoft Word</a>).
+Manuscripts should be submitted as email attachments in pdf format to the workshop co-chairs at
+<strong><a href="mailto:dc2s2workshop@oulu.fi">dc2s2workshop@oulu.fi</a></strong>,
+by <span class="keyword">February 12, 2019</span>. At least one author of each accepted paper must
+attend the workshop and all participants must register for both the workshop and for at least one day
+of the conference. <!-- More details about the workshop can be found in the call for proposals. -->
+</p>
+</section>
+
+
+
+<!-- https://naturalgoodscompany.com/wp-content/uploads/male-placeholder-image.jpeg -->
+<section id="organizers" class="section scrollspy">
+<h2>Organizers</h2>
+    <div class="row">
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(img/oppenlaender.jpg)" title="Jonas Oppenlaender"></div>
+        <a href="http://www.jonaso.de/" target="_blank" title="Jonas Oppenlaender">Jonas Oppenlaender</a>
+        <div>
+          <div class="position">Doctoral Researcher</div>
+          <div class="institution">Center for Ubiquitous Computing<br />Universty of Oulu, Finland</div>
+        </div>
+      </div>
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/bilder/bilder-2017/mackeprang.jpg?width=350)" title="Maximilian Mackeprang"></div>
+        <a href="http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/researchers/mackeprang.html" target="_blank" title="Maximilian Mackeprang">Maximilian Mackeprang</a>
+        <div>
+          <div class="position">Doctoral Researcher</div>
+          <div class="institution">Human-Centered Computing Lab<br />Freie Universit&auml;t Berlin, Germany</div>
+        </div>
+      </div>
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(https://researcher.watson.ibm.com/researcher/photos/1161.jpg)" title="Maja Vukovic"></div>
+        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-maja" target="_blank" title="Maja Vukovi&#263;">Maja Vukovi&#263;</a>
+        <div>
+          <div class="position">Research Manager, <!--RSM, Member IBM Academy of Technology &amp; --> Master Inventor</div>
+          <div class="institution">Thomas J. Watson Research Center,<br />Yorktown Heights, NY USA</div>
+        </div>
+      </div>
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/bilder/bilder-2017/khiat.jpg?width=350)" title="Abderrahmane Khiat"></div>
+        <a href="http://www.mi.fu-berlin.de/en/inf/groups/hcc/members/postdocs/khiat.html" target="_blank" title="Abderrahmane Khiat">Abderrahmane Khiat</a>
+        <div>
+          <div class="position">Postdoctoral Researcher</div>
+          <div class="institution">Human-Centered Computing Lab<br />Freie Universit&auml;t Berlin, Germany</div>
+        </div>
+      </div>
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(img/goncalves.jpg)" title="Jorge Goncalves"></div>
+        <a href="http://www.jorgegoncalves.com/" target="_blank" title="Jorge Goncalves">Jorge Goncalves</a>
+        <div>
+          <div class="position">Lecturer in HCI</div>
+          <div class="institution">Interaction Design Lab<br />University of Melbourne, Australia</div>
+        </div>
+      </div>
+      <div class="organizer col s4">
+        <div class="img" style="background-image:url(img/hosio.jpg)" title="Simo Hosio"></div>
+        <a href="http://www.simohosio.com/" target="_blank" title="Simo Hosio">Simo Hosio</a>
+        <div>
+          <div class="position">Adjunct Professor</div>
+          <div class="institution">Center for Ubiquitous Computing<br />University of Oulu, Finland</div>
+        </div>
+      </div>
+    </div>
+</section>
+
+</div><!--col-->
+
+<div id="nav" class="col hide-on-med-and-down m3 l2">
+  <ul class="section table-of-contents">
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#objectives">Objectives</a></li>
+    <li><a href="#structure">Structure</a></li>
+    <li><a href="#cfp">Call for Participation</a></li>
+    <li><a href="#organizers">Organizers</a></li>
+  </ul>
+</div>
+
+</div><!--container-->
+
+
+<footer class="page-footer cyan">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">DC<sup>2</sup>S<sup>2</sup> Workshop</h5>
+        <p class="grey-text text-lighten-4">Workshop on Designing Crowd-powered Creativity Support Systems</p>
+        <p class="grey-text text-lighten-4">4/5 May 2019</p>
+        <p class="grey-text text-lighten-4">
+          Co-located with the
+          <a href="https://chi2019.acm.org/" title="CHI'19" target="_blank" class="white-text">ACM CHI Conference on Human Factors in Computing Systems (CHI'19)</a>
+        </p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="http://www.oulu.fi/" target="_blank" title="University of Oulu">University of Oulu</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.fu-berlin.de/" target="_blank" title="Freie Universit&auml;t Berlin">Freie Universit&auml;t Berlin</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.unimelb.edu.au/" target="_blank" title="The University of Melbourne">The University of Melbourne</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://research.ibm.com/" target="_blank" title="IBM Research">IBM Research</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    &copy; 2018 All Rights Reserved
+    <!--
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    -->
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>if (!window.jQuery) { document.write('<script src="js/jquery-3.3.1.min.js"><\/script>'); }</script>
+
+<script src="js/jquery.matchHeight-min.js"></script>
+
+
+<script type="text/javascript">
+$(function() {
+
+  $('.breakouttxt').matchHeight({
+    byRow: true,
+    property: 'height'
+  });
+
+  $('.collection').matchHeight({
+    byRow: true,
+    property: 'height'
+  });
+
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.scrollspy');
+  var instances = M.ScrollSpy.init(elems, {
+    throttle: 100,
+    scrollOffset: 200,
+    activeClass: 'active',
+  });
+});
+
+</script>        
+
+</body>
+</html>
